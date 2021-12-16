@@ -23,6 +23,6 @@ The `./code/` directory contains separate scripts to replicate each analytical f
 
 - `03-fig3-results-attitude-polarization.R`: to replicate Figure 3 of the paper, where we show the main (3.A) and moderator (3.B) effects of the treatment on attitude polarization. In the script we first generate Figure 3.A and then Figure 3.B. For the paper, we then pasted the two subfigures together.
 
-<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3b-extreme-sites-att-pol-MAIN.jpeg">
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3a-extreme-sites-att-pol-MAIN.jpeg">
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3b-extreme-sites-att-pol-MOD.jpeg">
