@@ -38,7 +38,7 @@ db <- read.csv("./data/extreme-sites-exp-browsing-data-toplot.csv")
 #===============================================================================
 # - calculate the average number of visits to extreme sites of the opposing
 #   ideology, by ideological group (liberals v. conservatives), and by day.
-plotdb <- db02 %>%
+plotdb <- db %>%
   group_by(exp_group, t) %>%
   summarise(pe = mean(sum_extreme, na.rm = TRUE),
             lwr = ifelse(length(unique(na.omit(sum_extreme))) > 1,
@@ -66,7 +66,7 @@ plotdb <- plotdb %>%
 #===============================================================================
 # - un-comment to save a pdf version of the plot.
 #pdf("./figures/fig1b-browsing-data.pdf", width = 10, height = 4)
-ggplot(plot_db01 %>%
+ggplot(plotdb %>%
          filter(t < 31) %>%
          mutate(group = factor(group, levels = c("Liberals", "Conservatives"))), 
        aes(x = t, y = pe, fill = group)) +
