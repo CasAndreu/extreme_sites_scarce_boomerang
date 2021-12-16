@@ -19,4 +19,10 @@ The `./code/` directory contains separate scripts to replicate each analytical f
 
 - `02-fig2-ideo-scores.R`: to replicate Figure 2 of the paper, where we show the distribution of the ideology scores (from Robertson et al. 2018) of the extreme  sites to which respondents in the treatment group were assigned, as well as the scores for some well-known sites, for face-validity purposes.
 
-<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig2-ideo-scores.jpg">
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig2-ideo-scores.jpeg">
+
+- `03-fig3-results-attitude-polarization.R`: to replicate Figure 3 of the paper, where we show the main (3.A) and moderator (3.B) effects of the treatment on attitude polarization. In the script we first generate Figure 3.A and then Figure 3.B. For the paper, we then pasted the two subfigures together.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3b-extreme-sites-att-pol-MAIN.jpeg">
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3b-extreme-sites-att-pol-MOD.jpeg">
