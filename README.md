@@ -34,3 +34,9 @@ The `./code/` directory contains separate scripts to replicate each analytical f
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig4a-extreme-sites-aff-pol-MAIN.jpeg">
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig4b-extreme-sites-aff-pol-MOD.jpeg">
+
+- [`05-fig5-results-other-outcome.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/05-fig5-results-other-outcomes.R): to replicate Figure 5 of the paper, where we show the main (5.A) and moderator (5.B) effects of the **other outcomes** of the experiment. In the script we first generate Figure 5.A and then Figure 5.B. For the paper, we then pasted the two subfigures together.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig5a-extreme-sites-other-out-MAIN.jpeg">
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig5b-extreme-sites-other-out-MOD.jpeg">
