@@ -173,9 +173,9 @@ ggplot(att_out02 %>%
 dev.off()
 
 #-------------------------------------------------------------------------------
-# [ Figure 3.A ] MODERATOR EFFECTS
+# [ Figure 3.B ] MODERATOR EFFECTS
 #-------------------------------------------------------------------------------
-# - merge moderators with the Aff Pol data
+# - specify list of moderators
 moderators <- c("party_folded", "ideo_folded", "pid_strength")
 
 att_modout <- NULL
