@@ -23,8 +23,14 @@ The `./code/` directory contains separate scripts to replicate each analytical f
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig2-ideo-scores.jpeg">
 
-- [`03-fig3-results-attitude-polarization.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/03-fig3-results-attitude-polarization.R): to replicate Figure 3 of the paper, where we show the main (3.A) and moderator (3.B) effects of the treatment on attitude polarization. In the script we first generate Figure 3.A and then Figure 3.B. For the paper, we then pasted the two subfigures together.
+- [`03-fig3-results-attitude-polarization.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/03-fig3-results-attitude-polarization.R): to replicate Figure 3 of the paper, where we show the main (3.A) and moderator (3.B) effects of the treatment on **attitude** polarization. In the script we first generate Figure 3.A and then Figure 3.B. For the paper, we then pasted the two subfigures together.
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3a-extreme-sites-att-pol-MAIN.jpeg">
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3b-extreme-sites-att-pol-MOD.jpeg">
+
+- [`04-fig4-results-affective-polarization.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/04-fig4-results-affective-polarization.R): to replicate Figure 4 of the paper, where we show the main (4.A) and moderator (4.B) effects of the treatment on **affective** polarization. In the script we first generate Figure 4.A and then Figure 4.B. For the paper, we then pasted the two subfigures together.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig4a-extreme-sites-aff-pol-MAIN.jpeg">
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig4b-extreme-sites-aff-pol-MOD.jpeg">
