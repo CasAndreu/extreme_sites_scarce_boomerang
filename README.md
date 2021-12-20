@@ -40,3 +40,7 @@ The `./code/` directory contains separate scripts to replicate each analytical f
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig5a-extreme-sites-other-out-MAIN.jpeg">
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig5b-extreme-sites-other-out-MOD.jpeg">
+
+- [`06-fig6-outlet-evaluations.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/06-fig6-outlet-evaluations.R): to replicate Figure 6 of the paper, where we provide information about how respondents in the treatment group evaluated the extremes sites of the other ideology that they visited during the experiment.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig6-extreme-sites-outlet-evaluations.jpeg">
