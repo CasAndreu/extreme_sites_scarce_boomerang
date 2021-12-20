@@ -5,7 +5,9 @@ This repository contains the replication material of the article "Exposure to ex
 ## Data
 The `./data/` directory contains the necessary data to replicate the analytical figures and tables of the paper. Below, we describe each of the datasets in this directory:
 
-- `extreme-sites-exp-browsing-data-toplot.csv`: browsing data for respondents in the treatment group. Contains information about how many times they accessed the extreme sites of the opposing ideology the days before, during, and after participating in the experiment. These counts are based on historical browsing data that they provided about 2.5 months after they participated in the experiment. We obtained this browsing data from many (N = 354, 70%) but not all participants (N = 505) for 2 main reasons: 1) some decided to not take part of Wave 3 of the study in which we embedded our experiment (in Wave 2), and 2) some did take part in Wave 3 and donated their browsing data, but not enough data going back to the time they participated in the experiment right after Wave 2 (so in other words, they provided < 75 days of past browsing data).
+- `extreme-sites-experiment-maindb.csv`: pre and post survey data. The dataset also contains information about treatment compliance for those assigned to treatment.
+
+- `extreme-sites-exp-browsing-data-toplot.csv`: browsing data for respondents in the treatment group. Contains information about how many times they accessed the extreme sites of the opposing ideology the days before, during, and after participating in the experiment.
 
 - `robertson-fig2-sites-ideo-scores.csv`: ideology scores from Robertson et al. 2018, for the sites plotted in Fig.2.
 
