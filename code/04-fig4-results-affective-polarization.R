@@ -16,7 +16,7 @@
 #===============================================================================
 library(dplyr)
 library(ggplot2)
-library(ggrepel)
+
 
 # DATA
 #===============================================================================
@@ -146,7 +146,7 @@ ap_out02 <- ap_out %>%
 
 
 # - give human redable labels to outcomes
-pdf("./figures/fig4a-extreme-sites-aff-pol-MAIN.pdf", width = 10, height = 5)
+#pdf("./figures/fig4a-extreme-sites-aff-pol-MAIN.pdf", width = 10, height = 5)
 ggplot(ap_out02,
        aes(x = outcome, y = pe)) +
   # - this is so I can have a legend indicating what the 2 colors mean. Will
@@ -206,7 +206,7 @@ ggplot(ap_out02,
         axis.title.x = element_text (size = 10),
         axis.text.y = element_text(size = 11),
         strip.text = element_text(size = 11))
-dev.off()
+#dev.off()
 
 #-------------------------------------------------------------------------------
 # [ Figure 4.B ] MODERATOR EFFECTS
@@ -298,8 +298,7 @@ ap_modout02 <- ap_modout %>%
            "Follows politics\n{7-point scale}"))) %>%
   mutate(significant = as.character(significant))
 
-pdf("./figures/fig4b-extreme-sites-aff-pol-MOD.pdf", 
-    width = 10, height = 5)
+#pdf("./figures/fig4b-extreme-sites-aff-pol-MOD.pdf", width = 10, height = 5)
 ggplot(ap_modout02,
        aes(x = outcome, y = pe)) +
   # - this is so I can have a legend indicating what the 3 colors mean. Will
@@ -378,4 +377,4 @@ ggplot(ap_modout02,
         axis.title.x = element_text (size = 10),
         axis.text.y = element_text(size = 11),
         strip.text = element_text(size = 11))
-dev.off()
+#dev.off()

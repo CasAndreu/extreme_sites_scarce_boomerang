@@ -33,16 +33,16 @@ db <- read.csv("./data/extreme-sites-experiment-maindb.csv")
 #-------------------------------------------------------------------------------
 # - specify outcomes of interest (issue attitudes)
 outcomes <-  c(
-  # - attitudes on economic issues (last one is an index combining the 3)
-  "ECON_1", "ECON_2", "ECON_3", "ECON",
-  # - attitudes on climate change (last one is an index combining the 3)
-  "ENV_1", "ENV_2", "ENV_3", "ENV",
-  # - attitudes on immigration (last one is an index combining the 3)
-  "IMMIG_1", "IMMIG_2", "IMMIG_3", "IMMIG",
-  # - attitudes on gun control (last one is an index combining the 3)
-  "GUN_1", "GUN_2", "GUN_3", "GUN",
-  # - attitudes on President Trump (last one is an index combining the 3)
-  "TRUMP_1", "TRUMP_2", "TRUMP_3", "TRUMP")
+  # - attitudes on economic issues
+  "ECON",
+  # - attitudes on climate change
+  "ENV",
+  # - attitudes on immigration
+  "IMMIG",
+  # - attitudes on gun control
+  "GUN",
+  # - attitudes on President Trump
+  "TRUMP")
   
 # - calculate changes in issue attitudes between pre and post survey
 for (outcome in outcomes) {
@@ -96,7 +96,6 @@ for (outcome in outcomes){
 
 # - prepare data to be plotted. Give human-readable labels to variables/classes.
 att_out02 <- att_out %>%
-  filter(!grepl("_", outcome)) %>%
   mutate(
     outcome = recode(outcome,
                      `TRUMP` = "Presidency of Donald Trump",
@@ -113,8 +112,7 @@ att_out02 <- att_out %>%
                            "High compliance\n(5-6 story surveys)\nN = 337"))
 
 #pdf("./figures/fig3b-extreme-sites-att-pol-MAIN.pdf", width = 9, height = 4)
-ggplot(att_out02 %>%
-         filter(!grepl("_", outcome)),
+ggplot(att_out02,
        aes(x = outcome, y = pe)) +
   # - this is so I can have a legend indicating what the 2 colors mean
   geom_point(aes(x = 9, y = 0, color = sample)) +
@@ -206,7 +204,6 @@ for (outcome in outcomes){
 
 # - provide human-readable names for variables/classes
 att_modout02 <- att_modout %>%
-  filter(!grepl("_", outcome)) %>%
   mutate(term = recode(term,
                        `condition:ideo_folded` = "Ideology strength\n{6-point scale}",
                        `condition:pid_strength` = "Party identity strength\n{7-point scale}",

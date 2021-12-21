@@ -129,7 +129,7 @@ rest_out02 <- rest_out %>%
                            "High compliance\n(5-6 story surveys)\nN = 337"))
 
 # - the plot
-pdf("./figures/fig5a-extreme-sites-other-out-MAIN.pdf", width = 9, height = 4)
+#pdf("./figures/fig5a-extreme-sites-other-out-MAIN.pdf", width = 9, height = 4)
 ggplot(rest_out02,
        aes(x = outcome, y = pe)) +
   # - this is so I can have a legend indicating what the 2 colors mean
@@ -186,7 +186,7 @@ ggplot(rest_out02,
         axis.title.x = element_text(size = 10),
         legend.key.size = unit(1.2, "cm"),
         legend.text = element_text(size = 8))
-dev.off()
+#dev.off()
 
 
 # REST OUTCOMES: Moderators
@@ -247,7 +247,7 @@ rest_modout02 <- rest_modout %>%
                             "Unhealthy habits"
                           ))))
 
-pdf("./figures/fig5b-extreme-sites-other-out-MOD.pdf", width = 9, height = 4)
+#pdf("./figures/fig5b-extreme-sites-other-out-MOD.pdf", width = 9, height = 4)
 ggplot(rest_modout02,
        aes(x = outcome, y = pe)) +
   # - this is so I can have a legend indicating what the 3 colors mean
@@ -322,4 +322,4 @@ ggplot(rest_modout02,
         axis.title.x = element_text(size = 10),
         legend.key.size = unit(1.2, "cm"),
         legend.text = element_text(size = 8))
-dev.off()
+#dev.off()
