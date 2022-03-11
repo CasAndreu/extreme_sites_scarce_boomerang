@@ -21,6 +21,24 @@ The `./code/` directory contains separate scripts to replicate each analytical f
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig1b-browsing-data.jpeg">
 
+- [`02-fig2-ideo-scores.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/02-fig2-ideo-scores.R): to replicate Figure 2 of the paper, where we show the distribution of the ideology scores (from Robertson et al. 2018) of the extreme  sites to which respondents in the treatment group were assigned, as well as the scores for some well-known sites, for face-validity purposes.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig2-ideo-scores.jpeg">
+
+- [`03-fig3-results-attitude-polarization.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/03-fig3-results-attitude-polarization.R): to replicate Figure 3 of the paper, where we show the main (3.A) and moderator (3.B) effects of the treatment on **attitude** polarization. In the script we first generate Figure 3.A and then Figure 3.B. For the paper, we then pasted the two subfigures together.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3a-extreme-sites-att-pol-MAIN.jpeg">
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig3b-extreme-sites-att-pol-MOD.jpeg">
+
+- [`04-fig4-results-affective-polarization.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/04-fig4-results-affective-polarization.R): to replicate Figure 4 of the paper, where we show the main (4.A) and moderator (4.B) effects of the treatment on **affective** polarization. In the script we first generate Figure 4.A and then Figure 4.B. For the paper, we then pasted the two subfigures together.
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig4a-extreme-sites-aff-pol-MAIN.jpeg">
+
+<img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig4b-extreme-sites-aff-pol-MOD.jpeg">
+
+- [`05-fig5-results-other-outcome.R`](https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/code/05-fig5-results-other-outcomes.R): to replicate Figure 5 of the paper, where we show the main (5.A) and moderator (5.B) effects of the **other outcomes** of the experiment. In the script we first generate Figure 5.A and then Figure 5.B. For the paper, we then pasted the two subfigures together.
+
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig5a-extreme-sites-other-out-MAIN.jpeg">
 
 <img src = "https://github.com/CasAndreu/extreme_sites_scarce_boomerang/blob/main/figures/fig5b-extreme-sites-other-out-MOD.jpeg">
